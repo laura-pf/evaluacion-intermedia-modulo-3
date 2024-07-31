@@ -4,8 +4,8 @@ import "../scss/components/ListCountries.scss";
 function ListCountries(props) {
   return (
     <ul className="list">
-      {props.countriesInfo.map((countryItem, index) => {
-        return <Country key={index} item={countryItem} />;
+      {props.countriesInfo.map((countryItem) => {
+        return <Country key={countryItem.name.official} item={countryItem} />;
       })}
     </ul>
   );

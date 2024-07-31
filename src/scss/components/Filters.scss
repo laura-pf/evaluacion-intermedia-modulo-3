@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: arial;
+  padding: 20px;
+  margin-left: 60px;
+  gap: 5px;
+}
+.divLabelInput {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  padding: 5px;
+  border: 1px solid lightblue;
+}
