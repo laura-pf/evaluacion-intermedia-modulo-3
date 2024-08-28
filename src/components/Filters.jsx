@@ -27,10 +27,11 @@ function Filters(props) {
       </div>
       <div className="divLabelInput">
         <label htmlFor="continent">By Continent</label>
+        {/* IMPORTANTE: los value de select tiene que ser igual que lo que aparece en el array en continentes para ahorrar logica */}
         <select
           className="input"
           id="continent"
-          value={props.selectName}
+          // value={props.selectName}
           name="continent"
           onChange={handleChangeSelect}
         >
