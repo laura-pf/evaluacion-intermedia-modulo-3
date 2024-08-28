@@ -6,7 +6,7 @@ Este proyecto es una aplicación web desarrollada en React que permite buscar y 
 
 - [Descripción](#descripción)
 - [Características](#características)
-- [Tecnologías Utilizadas](#tecnologíasutilizadas)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Contacto](#contacto)
